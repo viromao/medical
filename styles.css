@@ -402,7 +402,8 @@ header{
 }
 
 .speciallization-item:hover .icon-box i,
-.speciallization-item:focus .icon-box i
+.speciallization-item:focus .icon-box i,
+.speciallization-item:active .icon-box i
 {
    color: #ECEEF7;
    transition: color 1s;
@@ -913,9 +914,17 @@ header{
         .footer-content .box1{
             max-width: none;
             margin: 20px;
-            padding: 20px;
-            align-self: center;
+ 
+            
         }
+        .box1 h4{
+            padding: 0px 100px;
+            align-self: center;
+            margin: 12px 0px;
+
+        }
+
+
 
         .news{
             justify-content: center;
